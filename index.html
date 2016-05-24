@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>London First Disciples</title>
+
+    <!-- JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+	<!-- Custom CSS -->
+    <link rel="stylesheet" href="css/customized.css" type="text/css">
+   
+    <!-- Ionic Icons -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic' rel='stylesheet' type='text/css'>
+
+    
+
+
+</head>
+
+<body>
+	<!-- CANVAS -->
+	<div class="canvas text-center">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">
+						<img alt="LFD" src="https://dl.dropboxusercontent.com/u/45150880/lfd-logo.png" class="sitetitle">
+					</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="navbar">
+					 <ul class="nav navbar-nav navbar-right">
+						<li><a href="./">Home</a></li>
+						<li><a href="./about/">About</a></li>
+						<li><a href="#">Ministries</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<h1>
+				<span class="heading-break animate-me fade-in-up delay-half">Welcome to </span><br>
+				<span class="heading-break animate-me fade-in-up delay-half">London First Disciples</span>
+			</h1>
+			<br><br>
+			<p><a class="btn btn-default" href="#form" role="button">Join Us This Sunday at 10:50 AM</a></p>
+		</div>
+	</div>
+	<!-- END of CANVAS -->
+	<div class="verse">
+		<div class="container">
+			<div class="row text-center animate-me fade-in-up">
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-12 col-md-offset-0 quote">
+					<p>“Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age.”<br></p>
+					<p id="verse">Matthew 28:19-20</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="ministries">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<div class="ministries-block animate-me fade-in-up">
+						<i class="fa ion-ios-calendar-outline"></i>
+						<h3>Announcements</h3>
+						<p>Check out London First Disciple's Upcoming Events. Come out for a great time of fellowship!</p>
+						<p><a class="btn btn-default" href="./events/" role="button">What's Happening</a></p>
+					</div>
+				</div>
+
+				<div class="col-sm-4 text-center">
+					<div class="ministries-block animate-me fade-in-up delay-quarter">
+						<i class="fa ion-android-car"></i>
+						<h3>Transportation</h3>
+						<p>Are you a student, and too poor to have a car but still want to come to church? Fear not! We have a shuttle that stop at various places around the Western University campus.</p>
+						<p><a class="btn btn-default" href="./transportation/" role="button">Learn more</a></p>
+					</div>
+				</div>
+
+				<div class="col-sm-4 text-center">
+					<div class="ministries-block animate-me fade-in-up delay-half">
+						<i class="fa ion-ios-paper-outline"></i>
+						<h3>Online Giving</h3>
+						<p>Every week lives are being changed because of your generous giving! We are deeply grateful for your prayers and financial support as we reach London & beyond.</p>
+						<p><a class="btn btn-default" href="#" role="button" data-original-title="Currently Unavailable" data-placement="bottom" data-toggle="tooltip" id="tooltip1">Give</a></p>
+
+						<!-- Tooltip JQuery Script -->
+						<script id="bsJs" type="text/javascript">
+						$(document).ready(function() {
+							$('#tooltip1').tooltip();
+						});
+						</script>
+						<!-- END of Tooltip JQuery Script -->
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="new-rule even"></div>
+
+	<footer>
+        <div class="container text-center">
+            <div class="social">
+                <a href="mailto:info@lfdisciples.ca" title="Contact LFD via Email" class="fa-round"><i class="fa ion-ios-email"></i></a>
+                <a href="https://www.facebook.com/LFDisciples/" title="Follow LFD on Facebook" class="fa-round"><i class="fa ion-social-facebook"></i></a>
+            </div>
+            <p>London First Disciples, 1844 Hamilton Rd, London, ON, Canada<br>Copyright © 2016 London First Disciples</p>
+        </div>
+    </footer>
+
+
+</body>

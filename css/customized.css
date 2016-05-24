@@ -1,0 +1,290 @@
+/* Removes all rounded corners on buttons 
+*{
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}*/
+body {
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+img.sitetitle{
+    height: auto; 
+    width: auto; 
+    max-width: 70px; 
+    max-height: 70px;
+}
+
+.btn-default {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.navbar {
+    background: rgba(10,14,15, 0.38);
+    box-shadow: 0px 20px 40px 20px rgba(10,14,15,0.38);
+    border-radius: 1px;
+    min-height: 70px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    min-height: 78px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm)
+.home .navbar {
+    box-shadow: 0px 20px 80px 20px rgba(10,14,15,0.38);
+}
+
+
+.canvas {
+    background-color: #3a4a51;
+    color: #eeeae6;
+    height: 730px;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #313536;
+    font-family: 'Lato',sans-serif;
+    font-weight: 100;
+    line-height: 1em;
+    margin: 0 0 16px 0;
+    padding: 0;
+}
+
+/* Canvas Title */
+.canvas h1 {
+    /*color: #dedad6;*/
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    margin: 0 0 12px 0;
+    padding-top: 137px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px #222;
+}
+
+.navbar-nav.navbar-right>li>a {
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+ul.navbar-right {
+    margin-top: 6px;
+}
+
+.navbar-collapse {
+    border-top: 0;
+    margin-top: 13px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #dedad6;
+    background-color: transparent;
+    /*background-color: transparent;*/
+}
+
+/* Canvas Button */
+.canvas .btn-default {
+    background: none;
+    border-color: #fff;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-top: 36px;
+    padding: 10px 14px;
+    text-transform: uppercase;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+
+}
+
+.canvas .btn {
+    border: 2.5px solid #fff;
+}
+
+.btn-default {
+    border: 2.5px solid #ccc;
+}
+
+.canvas .btn:hover,
+.canvas .btn:focus,
+.canvas .btn.focus {
+  color: #000;
+  text-decoration: none;
+  background: #fff;
+}
+.canvas .btn:active,
+.canvas .btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+/* END of Canvas Button */
+
+/* Verse DIV */
+.verse {
+    background-color: #f0f0f0;
+    padding: 80px 0px 80px 0;
+    position: relative;
+}
+
+.quote p {
+    font-size: 26px;
+    font-style: italic;
+    text-align: left;
+    background-color: #f0f0f0;
+}
+
+.quote #verse {
+    text-align: right;
+}
+/* END of Verse DIV */
+
+/* Ministries DIV */
+.ministries {
+    background: #fff;
+    padding: 80px 0px 80px 0;
+    position: relative;
+}
+
+.ministries .fa {
+    color: #000;
+    display: block;
+    font-size: 70px;
+    height: 110px;
+    line-height: 110px;
+    padding-bottom: 10px;
+}
+
+.ministries h3 {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.ministries .btn-default {
+    font-size: 16px;
+    padding: 12px 24px;
+    text-transform: uppercase;
+}
+
+.ministries .btn-default:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #3c342f;
+    border-top: 6px solid #9dbcc8;
+    color: #fff;
+    height: 200px;
+    padding: 35px 0px 10px 0px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+
+.fa-round {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    margin: 10px 6px;
+    width: 42px;
+    font-size: 20px;
+}
+
+.tagline {
+    display: block;
+    font-size:22px;
+}
+
+.text-align-center {
+    text-align: center;
+    width:100%;
+}
+
+#about{
+    background:#3a4a51 url("../img/header2000.jpg") no-repeat center top;
+    background-size:cover;
+    height: 350px;
+}
+
+#about h1 {
+    padding-top: 70px;
+}
+
+#about-c1 {
+    height: 350px;
+}
+
+#about-verse {
+    font-size: 18px;
+    background-color: #fff;
+}
+
+#about-verse1 {
+    font-size: 18px;
+    background-color: #fff;
+    text-align: right;
+}
+
+#contact {
+    background:#3a4a51 url("../img/contact1920.jpg") no-repeat center center;
+    background-size:cover;
+    height: 350px;
+}
+
+#contact h1 {
+    padding-top: 70px;
+}
+
+
+@media only screen and (min-width: 481px) {
+    .canvas{
+        background:#3a4a51 url("../img/canvas2000.jpg") no-repeat center top;
+        background-size:cover
+    }
+
+}
+@media only screen and (max-width: 480px){
+    .canvas h1 {
+        font-size: 40px;
+        padding-top: 35px;
+    }
+
+    .canvas{
+        background:#3a4a51 url("../img/canvas960.jpg") no-repeat center top;
+        background-size:cover;
+        height: auto;
+        padding:0 0 35px 0;
+    }
+    .canvas .btn-default {
+        font-size: 12px;
+    }
+}
