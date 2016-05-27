@@ -264,6 +264,26 @@ footer p {
     padding-top: 70px;
 }
 
+#ministries{
+    background:#3a4a51 url("../img/churchlife1920.jpg") no-repeat center top;
+    background-size:cover;
+    height: 350px;
+}
+
+
+#ministries-c1 {
+    background:#3a4a51 url("../img/canvas2000.jpg") no-repeat center center;
+    height: 350px;
+}
+
+#ministries-c2 {
+    background:#3a4a51 url("../img/missions1680.jpg") no-repeat center center;
+    height: 350px;
+}
+
+#ministries h1 {
+    padding-top: 70px;
+}
 
 @media only screen and (min-width: 481px) {
     .canvas{
