@@ -219,6 +219,12 @@ footer p {
     font-size: 20px;
 }
 
+a:hover,
+a:focus {
+  color: rgba(255,255,255, 0.50);
+  text-decoration: underline;
+}
+
 .tagline {
     display: block;
     font-size:22px;
